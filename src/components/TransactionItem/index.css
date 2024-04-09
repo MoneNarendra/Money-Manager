@@ -1,0 +1,35 @@
+.each-history-item {
+  display: flex;
+  border: 1px solid #d7dfe9;
+}
+
+.history-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 25%;
+  text-align: center;
+}
+
+.headings {
+  font-weight: bold;
+}
+
+.delete-icon {
+  height: 15px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .history-text {
+    font-size: 15px;
+  }
+}
